@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(10,10,10);
-    color: rgb(240,240,240);
+    background-color: #0a0a0a;
+    color: #f0f0f0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,20 +20,18 @@ header {
 }
 
 .share-button {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     border-radius: 20px;
-    background-color: rgb(240,240,240);
+    background-color: #547cff;
 }
 
 .share-button svg {
-    margin-left: 12px;
-    margin-top: 10px;
-    color: rgb(0,0,0);
+    margin: 10px 12px 0 0;
 }
 
 .container {
-    width: 91%;
+    width: 100%;
     max-width: 680px;
     margin: 10px;
     display: flex;
@@ -48,12 +46,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: rgb(240,240,240);
+    color: #f0f0f0;
 }
 
 .tile {
     width: 100%;
-    background-color: rgb(37,37,37);
+    background-color: #252525;
     margin: 7px;
     border-radius: 17px;
     display: flex;
@@ -61,7 +59,7 @@ a {
 }
 
 .tile:hover {
-    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
     transform: scale(1.02);
 }
 
@@ -70,19 +68,17 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(52,52,52);
+    background-color: #343434;
 }
 
 .tile-share-button svg {
-    margin-left: 12px;
-    margin-top: 10px;
+    margin: 10px 12px 0 0;
 }
-
 
 .image-container {
     height: 96px;
     width: 96px;
-    border-radius: 48px;
+    border-radius: 50%;
     overflow: hidden;
 }
 
