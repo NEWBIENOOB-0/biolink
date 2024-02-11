@@ -19,14 +19,14 @@ header {
     margin-top: 15px;
 }
 
-.share-button {
+.share-button, .tile-share-button {
     width: 55px;
     height: 55px;
     border-radius: 20px;
     background-color: #547cff;
 }
 
-.share-button svg {
+.share-button svg, .tile-share-button svg {
     margin: 10px 12px 0 0;
 }
 
@@ -90,4 +90,29 @@ a {
     margin: 4px 8px;
     width: 44px;
     height: 44px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+    header {
+        width: 100%;
+        justify-content: center;
+    }
+    .share-button, .tile-share-button {
+        width: 100px;
+        height: 100px;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+        font-size: 36px; 
+    }
+    h1 {
+        font-size: 24px; 
+    }
+    p {
+        font-size: 16px; 
+    }
 }
